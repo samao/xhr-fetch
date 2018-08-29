@@ -1,0 +1,23 @@
+{
+  "name": "xhr-fetch",
+  "version": "1.0.0",
+  "description": "request on browser",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samao/xhr-fetch.git"
+  },
+  "keywords": [],
+  "author": "idzeir <qiyanlong@wozine.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samao/xhr-fetch/issues"
+  },
+  "homepage": "https://github.com/samao/xhr-fetch#readme"
+}
