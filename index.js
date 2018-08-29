@@ -1,4 +1,4 @@
-export default function ajaxFetch(url, cb) {
+export default function xhrFetch(url, cb) {
 	if(window.fetch) {
 		fetch(url).then(function(res){
 			return res.text();
