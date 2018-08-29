@@ -1,6 +1,6 @@
 {
   "name": "xhr-fetch",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "request on browser",
   "publishConfig": {
     "access": "public"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/samao/xhr-fetch.git"
   },
-  "keywords": [],
+  "keywords": ["xhr", "fetch"],
   "author": "idzeir <qiyanlong@wozine.com>",
   "license": "ISC",
   "bugs": {
