@@ -1,8 +1,14 @@
 declare module 'xhr-fetch' {
 
-	interface NodeLikeCallback {
-		(error: string | null, data?: string): void;
+	interface SuccessCallBack {
+		(error: null, data: string): void;
 	}
+
+	interface FailCallBack {
+		（error:string): void;
+	}
+
+	type NodeLikeCallBack = SuccessCallBack | FailCallBack
 
 	const ajaxFetch: (url: string, cb: NodeLikeCallback) => void;
 
