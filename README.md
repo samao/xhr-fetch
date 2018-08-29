@@ -1,1 +1,1 @@
-# ajax-fetch
+# xhr-fetch

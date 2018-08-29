@@ -1,9 +1,12 @@
 {
   "name": "xhr-fetch",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "request on browser",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts":{
+    "patch": "npm publish --registry https://registry.npmjs.org/"
   },
   "main": "index.js",
   "repository": {
