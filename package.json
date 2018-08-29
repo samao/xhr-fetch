@@ -1,6 +1,6 @@
 {
   "name": "xhr-fetch",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "request on browser",
   "publishConfig": {
     "access": "public"
